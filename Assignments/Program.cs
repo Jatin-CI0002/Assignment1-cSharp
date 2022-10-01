@@ -37,23 +37,25 @@ namespace Assignments
                     Program.CreateCentrifugeProblem();
                     break;
             }
-            Console.WriteLine("Enter the Input String");
 
         }
         private static void CreateAlphabeticalOrder()
         {
+            Console.WriteLine("Enter String that needs to be arranged");
             string input = Console.ReadLine();
             Console.WriteLine(AlphabeticalOrder.SortAlphabets(input));
         }
 
         private static void CreateAreaCalculator()
         {
+            Console.WriteLine("Enter side of Rectangle");
             int radius = Int32.Parse(Console.ReadLine());
             Console.WriteLine(AreaCalculator.CalculateRequiredArea(radius));
         }
 
         private static void CreateBinaryClock()
         {
+            Console.WriteLine("Enter Time");
             string input = Console.ReadLine().Replace(":", String.Empty).Replace(" ", String.Empty);
             string[] output = BinaryClock.CreateBinaryClock(input);
             Console.WriteLine(" ");
@@ -64,6 +66,7 @@ namespace Assignments
         }
         private static void CreateCardRanking()
         {
+            Console.WriteLine("Enter Combinations one by one");
             string[] hand = new string[5];
             for (int i = 0; i < 5; i++)
                 hand[i] = Console.ReadLine();
@@ -73,7 +76,10 @@ namespace Assignments
 
         private static void CreateCentrifugeProblem()
         {
+            Console.WriteLine("Enter total holes i.e n");
             int total = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter total tubes i.e k");
             int filled = int.Parse(Console.ReadLine());
             Console.WriteLine(Centrifuge.BalanceTheConfiguration(total, filled));
         }

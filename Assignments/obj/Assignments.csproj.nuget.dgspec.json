@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\JatinKamboj\\Desktop\\c#\\Assignments\\Assignments\\Assignments.csproj": {}
+    "C:\\Users\\JatinKamboj\\Desktop\\c#\\Assignments\\Assignments\\Assignments.csproj": {}
   },
   "projects": {
-    "c:\\Users\\JatinKamboj\\Desktop\\c#\\Assignments\\Assignments\\Assignments.csproj": {
+    "C:\\Users\\JatinKamboj\\Desktop\\c#\\Assignments\\Assignments\\Assignments.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\JatinKamboj\\Desktop\\c#\\Assignments\\Assignments\\Assignments.csproj",
+        "projectUniqueName": "C:\\Users\\JatinKamboj\\Desktop\\c#\\Assignments\\Assignments\\Assignments.csproj",
         "projectName": "Assignments",
-        "projectPath": "c:\\Users\\JatinKamboj\\Desktop\\c#\\Assignments\\Assignments\\Assignments.csproj",
+        "projectPath": "C:\\Users\\JatinKamboj\\Desktop\\c#\\Assignments\\Assignments\\Assignments.csproj",
         "packagesPath": "C:\\Users\\JatinKamboj\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\JatinKamboj\\Desktop\\c#\\Assignments\\Assignments\\obj\\",
+        "outputPath": "C:\\Users\\JatinKamboj\\Desktop\\c#\\Assignments\\Assignments\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JatinKamboj\\AppData\\Roaming\\NuGet\\NuGet.Config",
