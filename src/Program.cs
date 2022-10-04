@@ -1,8 +1,8 @@
-﻿namespace Assignments
+﻿
+namespace Assignments
 {
     class Program
-    {
-
+    { 
         public static void Main(string[] args)
         {
             Console.WriteLine("Enter the Problem statement Index");
