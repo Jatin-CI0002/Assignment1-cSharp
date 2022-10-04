@@ -18,7 +18,6 @@ namespace Assignments
             double rightWridge = rSquare - ((0.25 * Math.PI * rSquare));
             double sectorArea = ((rSquare * (Math.PI - 2 * Math.Atan(0.5)) / 2) - (rSquare * 0.4));
 
-            
             return Math.Round(triangle - (rightWridge + sectorArea),3);
         }
     }

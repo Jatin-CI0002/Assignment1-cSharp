@@ -7,7 +7,6 @@ namespace Assignments
         public static string SortAlphabets(string inputString)
         {
             inputString = inputString.ToLower();
-
             string outputString = "";
             
             string[] strings = inputString.Split(" ");
@@ -53,7 +52,6 @@ namespace Assignments
 
             return outputString;
         }
-
 
     }
 }
